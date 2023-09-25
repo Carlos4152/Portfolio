@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.is__active {
+  transition: all 0.4s ease-in-out;
+  left: 0px;
+}
+
+.no__active {
+  transition: all 0.4s ease-in-out;
+  left: -100%;
+}
+
+.hero__container {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.pexels.com/photos/986774/pexels-photo-986774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact__form {
+  background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
