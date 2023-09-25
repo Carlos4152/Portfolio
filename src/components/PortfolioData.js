@@ -39,7 +39,7 @@ const projects = [
     image: Portfolioweb,
     name: 'PORTFOLIO WEB',
     description: 'Decided to build my own portfolio using React.',
-    skill: [Git, Github, HTML, CSS,Javascript, react],
+    skill: [Git, Github, HTML, CSS, Tailwind, Javascript, react],
     view: 'https://carlos4152.github.io/Maintenance-One/',
     github: 'https://github.com/Carlos4152/Maintenance-One'
   }
